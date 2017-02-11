@@ -28,7 +28,6 @@ body {
 	text-align: left;
 }
 .product-text li{
-	text-align: right;
 	list-style-type: none;
 }
 input[type="text"]{
@@ -48,4 +47,19 @@ input[type="submit"]{
 }
 table{
 	width: 100%;
+}
+.menu a:hover{
+	color: red;
+}
+input[name="user_mail"]:focus{
+	color: green;
+}
+input, textarea{
+	text-transform: capitalize;
+}
+.box-parameters td, .box-parameters th{
+	border: 1px solid black;
+}
+table {
+	border-collapse: collapse;
 }
