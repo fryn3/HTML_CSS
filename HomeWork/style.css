@@ -86,19 +86,20 @@ table {
 }
 .footer p {
 	text-align: right;
+	margin-right: 10px;
 }
 .foto {
 	float: left;
 	margin: 0 10px 0 0;
 }
-.foto img {
-	width: 400px;
-	height: 400px;
-}
 .content img {
 	width: 150px;
 	height: 150px;
 	display: block;
+}
+.foto img {
+	width: 400px;
+	height: 400px;
 }
 .btn_buy input {
 	width: 100%;
